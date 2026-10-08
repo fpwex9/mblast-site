@@ -10,6 +10,7 @@
   <meta property="og:title" content="Mindblast – Consulting &amp; Coordination for Family Offices and Private Clients">
   <meta property="og:description" content="Cyprus-based consulting company. Governance, coordination, reporting and banking infrastructure for family offices, private clients and their holding structures.">
   <meta property="og:url" content="https://mblast.eu/">
+  <meta name="theme-color" content="#F6F2EA">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -18,14 +19,14 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top">
-        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#13233A"/><path d="M14 46V18h6l12 15 12-15h6v28h-7V30l-11 13-11-13v16z" fill="#F7F8FA"/></svg>
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="31" fill="#1A2430"/><text x="32" y="43.5" font-family="Baskerville, 'Baskerville Old Face', 'Hoefler Text', Georgia, serif" font-size="34" fill="#F6F2EA" text-anchor="middle">M</text></svg>
         <span class="brand-name">Mindblast</span>
       </a>
       <nav class="site-nav" aria-label="Main">
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#process">Process</a>
         <a href="#clients">Clients</a>
-        <a href="#approach">Approach</a>
         <a class="nav-cta" href="#contact">Contact</a>
       </nav>
     </div>
@@ -34,25 +35,73 @@
   <main id="top">
 
     <section class="hero">
-      <div class="container">
-        <p class="kicker">Mindblast Limited · Limassol, Cyprus</p>
-        <h1>Consulting and coordination for family offices and private clients</h1>
-        <p class="lead">Mindblast is a Cyprus-based consulting company. We help family offices, private clients and their holding structures run their affairs as a clear, well-organised process – from governance and reporting to the relationships with banks, custodians and advisers.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Get in touch</a>
-          <a class="btn btn-ghost" href="#services">Our services</a>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker">Mindblast Limited · Limassol, Cyprus</p>
+          <h1>Consulting and coordination for family offices and private clients</h1>
+          <p class="lead">Mindblast is a Cyprus-based consulting company. We help family offices, private clients and their holding structures run their affairs as a clear, well-organised process – from governance and reporting to the relationships with banks, custodians and advisers.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="#services">Our services</a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 480 420" role="presentation">
+            <circle cx="240" cy="210" r="150" class="disc"/>
+            <circle cx="240" cy="210" r="80" class="ring"/>
+            <circle cx="240" cy="210" r="150" class="ring ring-dash"/>
+            <circle cx="240" cy="210" r="196" class="ring ring-faint"/>
+
+            <g class="orbit">
+              <circle cx="240" cy="14" r="3" class="spark"/>
+              <circle cx="436" cy="210" r="2.5" class="spark"/>
+              <circle cx="101" cy="349" r="2" class="spark"/>
+              <circle cx="320" cy="136" r="2" class="spark"/>
+              <circle cx="168" cy="250" r="2" class="spark"/>
+            </g>
+
+            <g class="links">
+              <line x1="240" y1="210" x2="240" y2="60"/>
+              <line x1="240" y1="210" x2="370" y2="135"/>
+              <line x1="240" y1="210" x2="370" y2="285"/>
+              <line x1="240" y1="210" x2="240" y2="360"/>
+              <line x1="240" y1="210" x2="110" y2="285"/>
+              <line x1="240" y1="210" x2="110" y2="135"/>
+            </g>
+
+            <g class="nodes">
+              <g class="node node-key"><rect x="177" y="45" width="126" height="30" rx="15"/><text x="240" y="64.5">Family office</text></g>
+              <g class="node"><rect x="336.5" y="120" width="67" height="30" rx="15"/><text x="370" y="139.5">Banks</text></g>
+              <g class="node"><rect x="318" y="270" width="104" height="30" rx="15"/><text x="370" y="289.5">Custodians</text></g>
+              <g class="node"><rect x="195.5" y="345" width="89" height="30" rx="15"/><text x="240" y="364.5">Auditors</text></g>
+              <g class="node"><rect x="50.5" y="270" width="119" height="30" rx="15"/><text x="110" y="289.5">Tax advisers</text></g>
+              <g class="node"><rect x="69" y="120" width="82" height="30" rx="15"/><text x="110" y="139.5">Lawyers</text></g>
+            </g>
+
+            <g class="core">
+              <circle cx="240" cy="210" r="58" class="core-ring"/>
+              <circle cx="240" cy="210" r="46" class="core-fill"/>
+              <text x="240" y="225.5" class="core-m">M</text>
+            </g>
+          </svg>
         </div>
       </div>
+
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 48 C 240 80 480 80 720 52 C 960 24 1200 20 1440 44 L1440 80 L0 80 Z" class="wave-back"/>
+        <path d="M0 58 C 260 30 520 34 760 56 C 1000 78 1240 76 1440 54 L1440 80 L0 80 Z" class="wave-front"/>
+      </svg>
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section section-first">
       <div class="container split">
         <div class="split-side">
           <p class="kicker">About the company</p>
           <h2>A focused practice for complex private structures</h2>
         </div>
         <div class="split-body">
-          <p>Mindblast Limited is a private company incorporated in the Republic of Cyprus in 2026, with its registered office in Limassol. The company draws on almost two decades of experience in investment banking, prime brokerage, investment products and family office management.</p>
+          <p>Mindblast Limited is a private company registered in the Republic of Cyprus, with its registered office in Limassol. The company draws on almost two decades of experience in investment banking, prime brokerage, investment products and family office management.</p>
           <p>We work with a small number of clients at a time: families with assets and entities in several jurisdictions, the family offices that serve them, and their holding companies.</p>
           <p>Every engagement is agreed in writing and billed as a consulting fee. There are no products to sell and no commissions involved.</p>
         </div>
@@ -65,27 +114,27 @@
         <h2>Services</h2>
         <div class="cards">
           <article class="card">
-            <span class="card-num">01</span>
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>
             <h3>Strategy &amp; management consulting</h3>
             <p>Governance and operating model for family offices: decision-making and reporting processes, internal controls, organisation, and the selection and oversight of external providers.</p>
           </article>
           <article class="card">
-            <span class="card-num">02</span>
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.6"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M10.2 10.2L6.4 6.4M13.8 10.2l3.8-3.8M10.2 13.8l-3.8 3.8M13.8 13.8l3.8 3.8"/></svg></div>
             <h3>Coordination services</h3>
             <p>A single point of coordination between the client and its banks, custodians, lawyers, tax advisers and auditors – onboarding and documentation, follow-up, and project management of structural changes.</p>
           </article>
           <article class="card">
-            <span class="card-num">03</span>
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 16.5v-4M12 16.5v-9M16.5 16.5v-6"/></svg></div>
             <h3>Reporting &amp; consolidation</h3>
             <p>One consistent view across institutions and jurisdictions: data collection, consolidated reporting and management dashboards for the family and its advisers.</p>
           </article>
           <article class="card">
-            <span class="card-num">04</span>
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5L12 4l9 5.5"/><path d="M5.5 10.5v7M10 10.5v7M14 10.5v7M18.5 10.5v7"/><path d="M3 20h18"/></svg></div>
             <h3>Banking &amp; investment infrastructure</h3>
             <p>Selection and set-up of banking, custody and brokerage relationships and of portfolio-reporting systems, based on hands-on experience from the industry side.</p>
           </article>
           <article class="card">
-            <span class="card-num">05</span>
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></div>
             <h3>Special projects</h3>
             <p>Independent second opinions on service proposals from banks and other providers – terms, fees and operating model – together with provider selection and focused research.</p>
           </article>
@@ -93,7 +142,42 @@
       </div>
     </section>
 
-    <section id="clients" class="section">
+    <section class="statement">
+      <div class="container">
+        <p class="statement-text">One coordinated process instead of a dozen disconnected relationships.</p>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <p class="kicker">How an engagement works</p>
+        <h2>Process</h2>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <h3>Introductory conversation</h3>
+            <p>We discuss the situation, the people involved and what needs to change – without commitment and at no cost.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">2</span>
+            <h3>Written scope &amp; fee</h3>
+            <p>Objectives, deliverables, timing and the fee are agreed in a written engagement letter before any work starts.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">3</span>
+            <h3>Delivery</h3>
+            <p>We work alongside the family and its advisers, with regular updates and clear ownership of every task.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">4</span>
+            <h3>Ongoing support</h3>
+            <p>Where useful, the engagement continues as a retainer: reporting, coordination and periodic reviews.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="clients" class="section section-tinted">
       <div class="container split">
         <div class="split-side">
           <p class="kicker">Who we work with</p>
@@ -105,25 +189,35 @@
             <li>Private clients and families with international assets</li>
             <li>Holding companies and other private structures</li>
           </ul>
-          <p>Our clients are based mainly in Cyprus, Portugal and other EU countries, Switzerland and the United Kingdom. We work with professional and private clients only and do not offer services to the general public.</p>
+          <p>We work with professional and private clients only and do not offer services to the general public. Our clients are based mainly in:</p>
+          <ul class="chips">
+            <li>Cyprus</li>
+            <li>Portugal</li>
+            <li>European Union</li>
+            <li>Switzerland</li>
+            <li>United Kingdom</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="approach" class="section section-tinted">
+    <section id="approach" class="section">
       <div class="container">
         <p class="kicker">How we work</p>
         <h2>Approach</h2>
         <div class="pillars">
           <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v17M7 20.5h10M4.5 7.5h15"/><path d="M4.5 7.5L2 13.5a3 3 0 0 0 5 0z"/><path d="M19.5 7.5L17 13.5a3 3 0 0 0 5 0z"/></svg></div>
             <h3>Independent</h3>
             <p>We sell no financial products and receive no commissions or retrocessions. Our only revenue is the consulting fee agreed with the client.</p>
           </div>
           <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"/></svg></div>
             <h3>Confidential</h3>
             <p>Family matters stay private. Engagements run under strict confidentiality, with NDAs where required.</p>
           </div>
           <div class="pillar">
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M7.8 12.3l2.8 2.8 5.6-5.8"/></svg></div>
             <h3>Practical</h3>
             <p>Deliverables are working processes, documents and systems that the family and its team actually use.</p>
           </div>
@@ -134,7 +228,7 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section contact-section">
       <div class="container contact-grid">
         <div class="contact">
           <p class="kicker">Contact</p>
@@ -145,7 +239,6 @@
         <dl class="company-facts">
           <dt>Legal name</dt><dd>MINDBLAST LIMITED</dd>
           <dt>Registration</dt><dd>HE 498162, Registrar of Companies, Republic of Cyprus</dd>
-          <dt>Incorporated</dt><dd>11 September 2026</dd>
           <dt>Registered office</dt><dd>37A Anexartisias Street, 3036 Limassol, Cyprus</dd>
         </dl>
       </div>
